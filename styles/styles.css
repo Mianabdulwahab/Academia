@@ -1,0 +1,249 @@
+.background-color {
+    background-color: #b8d9e2;
+}
+
+.font-color {
+    color: #f3fcfc;
+}
+
+.font-size-online {
+    font-size: 10px;
+}
+
+.clock-color {
+    color: #dff8fc;
+    font-size: 25px;
+}
+
+.clock-div-text {
+    font-size: 10px;
+    color: #f3fcfc;
+    
+}
+
+.div-icons {
+    color: #36a094;
+    font-size: 12px;
+}
+
+.b-g-color {
+    background-color: #c6e7ed;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.nd-nav-bg-color {
+    background-color: #a9cbd4;
+}
+
+.nav-spans {
+
+    font-size: 12px;
+    color: #e7f8fe;
+}
+
+.b-g-nav {
+    background-color: #adced5;
+    
+}
+
+.span-two {
+    color: #f3fdff;
+}
+
+.education-font {
+    font-size: 25px;
+}
+
+.welcome-font {
+    font-size: 10px;
+}
+
+.start-button {
+    background-color: #06b1a9;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 145px;
+
+}
+
+.course-button {
+    color: #06b1a9;
+    background-color: #ffffff;
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 145px;
+
+}
+
+.arrow {
+    font-size: 8px;
+    margin-left: 8px;
+
+}
+
+.background-box {
+    width: 100%;
+    height: 1040px;
+    background-image: url('kid-studio-shoot-wearing-casual-adorable-white-background.png');
+    background-size: cover;
+    /* Fills the box, maintaining aspect ratio */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents tiling */
+}
+
+.second-section{
+    background-color: #f8f8f8;
+}
+
+.a-text{
+
+    color: #45ad99;
+    
+}
+
+.benefits-text{
+  font-size: 25px;
+}
+
+.online-section{
+      box-shadow: 5px 5px 45px 0px;
+
+}
+.online-icon{
+    font-size: 40px;
+    color: #46978a;
+
+}
+
+  .nav-logo-icon {
+    width: 36px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  .nav-logo-icon i {
+    font-size: 16px;
+    color: #007bff;
+  }
+
+@media (min-width: 1199px) {
+  .le-section{
+    display:none
+  }
+  
+}
+
+@media (min-width: 992px) {
+ .mr-le{
+        margin-left: 10px;
+
+ }
+ .le-section{
+    display:none
+  }
+.d-no{
+    display: none;
+}
+.online-icon{
+    font-size: 30px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+    .d-nav{
+        display: none !important;
+        }
+
+.d-pic{
+   display: none;
+ }
+ .text-section{
+    display: none;
+ }
+
+ .le-section{
+    display:none
+  }
+
+  .dis-non{
+    display: none;
+  }
+
+  
+@media (max-width: 800px) {
+  
+  .di-none{
+    display: none;
+  }
+.last{
+    display: none;
+}
+
+ 
+}
+ 
+@media (min-width: 750px) {
+  
+  .di-none{
+    display: none;
+  }
+}
+
+
+}
+@media (min-width: 800px) {
+
+.d-nav{
+    display: none;
+}
+.online-icon {
+    font-size: 30px;
+
+
+}
+
+.last{
+    display: none;
+}
+
+
+}
+
+
+@media (max-width: 576px) {
+
+
+ .m-l-last{margin-left: auto;
+}
+.last-d-online{
+    display: none;
+}
+
+.online-icon{
+        font-size: 25px;
+    color: #46978a;
+}
+ 
+
+}
+
+
+
