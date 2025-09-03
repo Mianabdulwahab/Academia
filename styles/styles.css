@@ -142,6 +142,91 @@
     color: #007bff;
   }
 
+
+
+
+    .carousel {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  .carousel-track {
+    display: flex;
+    transition: transform 0.4s ease;
+  }
+  .carousel-item {
+    flex: 0 0 calc(100% / 3 - 15px);
+    margin-right: 15px;
+    box-sizing: border-box;
+    background-color: #eee;
+    height: 150px;
+    border-radius: 8px;
+    font-size: 48px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Remove margin-right on last item */
+  .carousel-item:last-child {
+    margin-right: 0;
+  }
+  .coursel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .coursel-button:hover:enabled {
+    opacity: 1;
+  }
+  .coursel-button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+  #prevBtn {
+    left: -40px;
+  }
+  #nextBtn {
+    right: -40px;
+  }
+
+  /* Responsive: show 1 slide on smaller screens */
+  @media (max-width: 700px) {
+    .carousel-item {
+      flex: 0 0 100%;
+      margin-right: 0;
+      height: 200px;
+    }
+    #prevBtn {
+      left: 5px;
+    }
+    #nextBtn {
+      right: 5px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1199px) {
   .le-section{
     display:none
@@ -233,6 +318,7 @@
 
  .m-l-last{margin-left: auto;
 }
+
 .last-d-online{
     display: none;
 }
@@ -246,4 +332,26 @@
 }
 
 
+@media (min-width: 769px) and (max-width: 799px) {
+  .your-section-class {
+    display: none;
+  }
+  .mobile-section{
+    display: none;
+}
+
+}
+
+
+@media (min-width: 300px) and (max-width: 768px) {
+
+    
+
+}
+  @media (max-width: 600px) {
+    .slide {
+      font-size: 1.2rem;
+      padding: 40px 15px;
+    }
+  }
 
